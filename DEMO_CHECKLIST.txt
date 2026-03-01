@@ -1,0 +1,404 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                   HACKATHON DEMO - QUICK CHECKLIST                    ║
+║              Banquet Management System - Feature Showcase             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+⏱️  TOTAL TIME: 15 MINUTES
+
+┌──────────────────────────────────────────────────────────────────────┐
+│ PRE-DEMO SETUP (5 MINUTES BEFORE)                                    │
+└──────────────────────────────────────────────────────────────────────┘
+
+[ ] Start server: npm run dev
+[ ] Open browser: http://localhost:3000
+[ ] Test login credentials ready
+[ ] AI API key working (check .env)
+[ ] Test data exists (branches, events, leads)
+[ ] Backup screenshots ready
+[ ] Confident & energetic! 💪
+
+
+┌──────────────────────────────────────────────────────────────────────┐
+│ DEMO FLOW - FOLLOW THIS EXACTLY!                                     │
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PART 1: AUTHENTICATION (2 min) ────────────────────────────────────┐
+│                                                                       │
+│ [ ] 1. Show landing page → Auto-redirect to login                   │
+│                                                                       │
+│ [ ] 2. Navigate to Sign Up                                          │
+│       → Show role selection (Owner/Branch Manager/Sales)            │
+│       → Explain role-based access                                   │
+│                                                                       │
+│ [ ] 3. Login to dashboard                                           │
+│       → Point out smooth animation                                  │
+│                                                                       │
+│ 💬 SAY: "Secure authentication with role-based permissions"          │
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PART 2: DASHBOARD OVERVIEW (2 min) ────────────────────────────────┐
+│                                                                       │
+│ [ ] 1. Highlight real-time stats                                    │
+│       → Total leads, bookings, revenue                              │
+│       → Live updates (no refresh needed)                            │
+│                                                                       │
+│ [ ] 2. Click notification bell                                      │
+│       → Show live alerts                                            │
+│                                                                       │
+│ [ ] 3. Point to sidebar navigation                                  │
+│       → Show all feature sections                                   │
+│                                                                       │
+│ 💬 SAY: "Real-time dashboard with live statistics and alerts"        │
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PART 3: AI-POWERED FEATURES ⭐ (5 min) ────────────────────────────┐
+│  THIS IS YOUR WOW FACTOR! SPEND TIME HERE!                          │
+│                                                                       │
+│ [ ] A. AI EVENT ANALYSIS 🤖                                          │
+│     Navigate: Dashboard → Event Analysis                            │
+│                                                                       │
+│     1. Select event from dropdown                                   │
+│     2. Click "Analyze Event"                                        │
+│     3. Wait for AI to process (explain it's analyzing)              │
+│     4. Show insights:                                               │
+│        ✓ Planning Efficiency Score                                  │
+│        ✓ Execution Quality                                          │
+│        ✓ Revenue Analysis (per-head, profit margin)                 │
+│        ✓ Guest Experience Recommendations                           │
+│        ✓ Logistics Optimization Tips                                │
+│     5. Click "Download Report" → PDF generated                      │
+│                                                                       │
+│     💬 SAY: "Gemini AI analyzes events and generates                 │
+│             comprehensive reports with actionable insights"          │
+│                                                                       │
+├────────────────────────────────────────────────────────────────────  │
+│                                                                       │
+│ [ ] B. AI BRANCH COMPARISON 🏢                                       │
+│     Navigate: Dashboard → Branches                                  │
+│                                                                       │
+│     1. Show all branch cards                                        │
+│        → Bookings, revenue, conversion rates                        │
+│     2. Click "AI Analysis"                                          │
+│     3. Show generated insights:                                     │
+│        ✓ Top performing branches (with WHY)                         │
+│        ✓ Underperforming branches                                   │
+│        ✓ Growth recommendations                                     │
+│        ✓ Scaling strategies                                         │
+│                                                                       │
+│     💬 SAY: "AI compares all branches and identifies                 │
+│             opportunities for optimization"                          │
+│                                                                       │
+├────────────────────────────────────────────────────────────────────  │
+│                                                                       │
+│ [ ] C. SMART BRANCH PRIORITY ENGINE 🎯                               │
+│     Navigate: Dashboard → Branch Priority                           │
+│                                                                       │
+│     1. Show current priority order                                  │
+│     2. Use arrows to reorder (explain drag-drop)                    │
+│     3. TEST THE RECOMMENDATION ENGINE:                              │
+│        → Guest Count: 150                                           │
+│        → Budget: $5,000                                             │
+│        → Click "Get Recommendation"                                 │
+│     4. Show AI response:                                            │
+│        ✓ Primary recommendation (why this one?)                     │
+│        ✓ Backup options (if primary is full)                        │
+│        ✓ Price comparison                                           │
+│        ✓ Unique features explained                                  │
+│     5. Click "View Details"                                         │
+│                                                                       │
+│     💬 SAY: "When primary branch is full, AI suggests best          │
+│             alternatives - prevents lost bookings!"                 │
+│                                                                       │
+├────────────────────────────────────────────────────────────────────  │
+│                                                                       │
+│ [ ] D. SMART SUPPLY MANAGEMENT 📦                                    │
+│     Navigate: Dashboard → Supplies                                  │
+│                                                                       │
+│     1. Select branch from dropdown                                  │
+│     2. Show color-coded supplies:                                   │
+│        🔴 Critical (≤25%) - Red alert                               │
+│        🟠 Low (26-50%) - Orange warning                             │
+│        🟡 Medium (51-100%) - Yellow caution                         │
+│        🟢 Healthy (100%+) - Green good                              │
+│     3. Point to critical items banner                               │
+│     4. Click notification bell → Show low stock alerts              │
+│     5. Click "Add Supply"                                           │
+│                                                                       │
+│     💬 SAY: "Color-coded real-time tracking with automatic          │
+│             notifications prevents supply shortages"                │
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PART 4: REAL-TIME BOOKING SYSTEM 🚀 (3 min) ──────────────────────┐
+│  SECOND WOW FACTOR - SHOW THE MAGIC!                                │
+│                                                                       │
+│ [ ] Navigate: Dashboard → Branch Manager                            │
+│                                                                       │
+│ [ ] 1. Show interactive calendar                                    │
+│                                                                       │
+│ [ ] 2. Click a date → Show booking form                             │
+│                                                                       │
+│ [ ] 3. Add first booking:                                           │
+│        Customer: "John Doe"                                         │
+│        Phone: "555-1234"                                            │
+│        Event: "Wedding"                                             │
+│        Hall: "Grand Hall"                                           │
+│        Time: "6:00 PM"                                              │
+│        Guests: 200                                                  │
+│        Amount: $3,000                                               │
+│        → Click "Add Booking"                                        │
+│        → Booking appears INSTANTLY                                  │
+│                                                                       │
+│ [ ] 4. NOW THE MAGIC! Try double-booking:                           │
+│        → Click SAME date                                            │
+│        → Try "Grand Hall" at "6:00 PM" again                        │
+│        → System BLOCKS with warning! ⛔                              │
+│        → Change time to "7:00 PM"                                   │
+│        → System ALLOWS it! ✅                                        │
+│                                                                       │
+│ [ ] 5. Show statistics:                                             │
+│        → Total bookings                                             │
+│        → Upcoming events                                            │
+│        → Occupancy rate                                             │
+│                                                                       │
+│ 💬 SAY: "Real-time synchronization with double-booking              │
+│         prevention - no conflicts possible!"                        │
+│                                                                       │
+│ BONUS (if time): Open two browser windows side-by-side              │
+│        → Add booking in Window 1                                    │
+│        → Watch it appear in Window 2 INSTANTLY                      │
+│        → No refresh needed! 🎉                                       │
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PART 5: LEAD MANAGEMENT CRM (2 min) ───────────────────────────────┐
+│                                                                       │
+│ [ ] Navigate: Dashboard → Leads                                     │
+│                                                                       │
+│ [ ] 1. Show Kanban board:                                           │
+│        → New Leads                                                  │
+│        → Contacted                                                  │
+│        → Negotiating                                                │
+│        → Converted                                                  │
+│        → Lost                                                       │
+│                                                                       │
+│ [ ] 2. Click "Add Lead"                                             │
+│        Name: "Sarah Johnson"                                        │
+│        Email: "sarah@email.com"                                     │
+│        Phone: "555-5678"                                            │
+│        Event: "Corporate Event"                                     │
+│        Guests: 100                                                  │
+│        Budget: $2,500                                               │
+│        Date: [Select future date]                                   │
+│        → Click "Create Lead"                                        │
+│                                                                       │
+│ [ ] 3. Drag lead card to "Contacted"                                │
+│        → Updates INSTANTLY                                          │
+│                                                                       │
+│ 💬 SAY: "Visual pipeline management with real-time updates"          │
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PART 6: QUICK FEATURE TOUR (1 min) ────────────────────────────────┐
+│                                                                       │
+│ [ ] Analytics → Revenue trends & insights                           │
+│ [ ] Inventory → Equipment tracking                                  │
+│ [ ] Invoices → Payment management                                   │
+│ [ ] Settings → User preferences                                     │
+│                                                                       │
+│ 💬 SAY: "Complete ecosystem for banquet operations"                  │
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─ PART 7: LOGOUT & CONCLUSION (30 sec) ──────────────────────────────┐
+│                                                                       │
+│ [ ] Click "Logout" button (top-right or sidebar)                    │
+│     → Shows logout button works!                                    │
+│     → Redirects to login page                                       │
+│                                                                       │
+│ 💬 SAY: "That's our AI-powered, real-time banquet management        │
+│         system - combining intelligence, automation, and             │
+│         seamless collaboration!"                                    │
+└──────────────────────────────────────────────────────────────────────┘
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                         KEY SELLING POINTS                            ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🤖 AI-POWERED INTELLIGENCE
+     → Gemini AI for event analysis
+     → Smart branch recommendations
+     → Predictive insights & optimization
+
+  ⚡ REAL-TIME SYNCHRONIZATION
+     → Instant updates across all devices
+     → No page refresh needed
+     → Multi-user collaboration
+
+  🛡️ SMART AUTOMATION
+     → Double-booking prevention
+     → Automatic low-stock alerts
+     → Intelligent branch matching
+
+  🔒 ENTERPRISE SECURITY
+     → Role-based access control
+     → Row-level security
+     → Encrypted data
+
+  📊 COMPREHENSIVE FEATURES
+     → CRM & lead management
+     → Event & booking management
+     → Supply & inventory tracking
+     → Analytics & reporting
+     → Invoice management
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                    JUDGE Q&A - BE READY FOR THESE                     ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Q: What makes this different?
+A: Three unique features: AI event analysis, real-time sync across
+   devices, and intelligent branch recommendation engine.
+
+Q: What's the tech stack?
+A: Next.js 14 (App Router), TypeScript, Supabase (Postgres + Real-time),
+   Gemini AI, Framer Motion, Tailwind CSS, Server Actions.
+
+Q: Is it scalable?
+A: Yes! Built on Postgres with real-time subscriptions. Scales
+   horizontally. Supports unlimited branches and concurrent users.
+
+Q: How secure is it?
+A: Row-Level Security, role-based access, JWT auth, encrypted data,
+   secure API keys. Enterprise-grade security.
+
+Q: Business model?
+A: SaaS pricing - Basic $99/mo, Pro $299/mo, Enterprise custom.
+
+Q: Development time?
+A: [Be honest - mention it's iterative with recent AI additions]
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                         EMERGENCY BACKUP PLAN                         ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+IF AI IS SLOW:
+  → Explain: "AI is analyzing hundreds of data points..."
+  → Move to real-time booking demo while waiting
+
+IF DEMO CRASHES:
+  → Show code architecture
+  → Use prepared screenshots
+  → Play video demo (prepare this!)
+
+IF NETWORK FAILS:
+  → Show offline features
+  → Explain architecture with diagram
+  → Code walkthrough
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                        WINNING PRESENTATION TIPS                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  ✓ Be enthusiastic and confident
+  ✓ Make eye contact with judges
+  ✓ Speak clearly and at good pace
+  ✓ Emphasize business value (not just tech)
+  ✓ Show, don't just tell
+  ✓ Pause after impressive features
+  ✓ Let animations complete (they're beautiful!)
+  ✓ Be ready to show code
+  ✓ Know your numbers (stats, metrics)
+  ✓ Smile and have fun! 😊
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                          FEATURE PRIORITY                             ║
+║                    (What to focus on if time is short)                ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+  🔥🔥🔥 MUST SHOW:
+    → AI Event Analysis
+    → Smart Branch Priority Engine
+    → Real-time booking with double-booking prevention
+
+  🔥🔥 SHOULD SHOW:
+    → Supply management with color coding
+    → AI Branch Comparison
+    → Lead CRM
+
+  🔥 NICE TO SHOW:
+    → Analytics dashboard
+    → Multi-window sync demo
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                       FINAL PRE-DEMO CHECKLIST                        ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+TECHNICAL:
+  [ ] npm run dev running without errors
+  [ ] .env file configured correctly
+  [ ] GOOGLE_GENAI_API_KEY is valid
+  [ ] Database has test data
+  [ ] Network connection stable
+  [ ] Browser cache cleared
+
+MATERIALS:
+  [ ] Backup screenshots prepared
+  [ ] Video demo recorded (2 min)
+  [ ] Architecture diagram ready
+  [ ] Code snippets highlighted
+  [ ] This checklist printed/accessible
+
+PERSONAL:
+  [ ] Demo script reviewed
+  [ ] Q&A answers memorized
+  [ ] Confident body language
+  [ ] Clear speaking voice
+  [ ] Positive energy! ⚡
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║     🏆 YOU'VE GOT THIS! GO WIN THAT HACKATHON! 🏆                    ║
+║                                                                       ║
+║  Remember: Let the features speak. Be confident. Have fun!           ║
+║                                                                       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════════
+
+QUICK FEATURE NAVIGATION REFERENCE:
+
+  📍 Authentication       → /auth/login, /auth/sign-up
+  📍 Dashboard           → /dashboard
+  📍 AI Event Analysis   → /dashboard/event-analysis
+  📍 Branch Priority     → /dashboard/branch-priority
+  📍 Branches            → /dashboard/branches
+  📍 Supplies            → /dashboard/supplies
+  📍 Branch Manager      → /dashboard/branch-manager
+  📍 Leads               → /dashboard/leads
+  📍 Bookings            → /dashboard/bookings
+  📍 Analytics           → /dashboard/analytics
+  📍 Inventory           → /dashboard/inventory
+  📍 Invoices            → /dashboard/invoices
+  📍 Settings            → /dashboard/settings
+  📍 Features Guide      → /dashboard/features-guide
+
+═══════════════════════════════════════════════════════════════════════
+
+⏱️  TIMING BREAKDOWN:
+
+  02:00 - Authentication & Role-based Access
+  02:00 - Dashboard Overview
+  05:00 - AI-Powered Features (★ FOCUS HERE ★)
+  03:00 - Real-time Booking System (★ IMPRESSIVE ★)
+  02:00 - Lead Management CRM
+  01:00 - Quick Feature Tour
+  00:30 - Logout & Conclusion
+  ─────
+  15:30 - Total (aim for 15 minutes)
+
+═══════════════════════════════════════════════════════════════════════

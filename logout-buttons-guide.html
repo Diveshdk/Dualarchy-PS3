@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout Button Locations - Banquet Management System</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .status {
+            text-align: center;
+            background: #10b981;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            border: 3px solid #667eea;
+            border-radius: 15px;
+            background: #f9fafb;
+        }
+        .section h2 {
+            color: #667eea;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .location-number {
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .mockup {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            position: relative;
+        }
+        .topbar {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .topbar-left {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .topbar-right {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .button {
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: 2px solid;
+            cursor: pointer;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+        }
+        .logout-button {
+            background: #fee2e2;
+            border-color: #ef4444;
+            color: #dc2626;
+        }
+        .logout-button:hover {
+            background: #fecaca;
+        }
+        .icon-button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid #e5e7eb;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+        }
+        .sidebar {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+            width: 250px;
+        }
+        .sidebar-item {
+            padding: 12px 15px;
+            margin: 5px 0;
+            border-radius: 6px;
+            background: #f3f4f6;
+        }
+        .sidebar-footer {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #e5e7eb;
+        }
+        .arrow {
+            position: absolute;
+            font-size: 2em;
+            color: #ef4444;
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .feature {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+        }
+        .feature h4 {
+            margin: 0 0 10px 0;
+            color: #10b981;
+        }
+        .code {
+            background: #1f2937;
+            color: #10b981;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        .highlight {
+            background: yellow;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Logout Button Implementation</h1>
+        <p class="subtitle">Banquet Management System - Hackathon Ready!</p>
+        
+        <div class="status">
+            ✅ LOGOUT BUTTON ADDED - TWO LOCATIONS
+        </div>
+
+        <!-- Location 1: Top Bar -->
+        <div class="section">
+            <h2>
+                <span class="location-number">1</span>
+                Location 1: Top Bar (Top-Right Corner)
+            </h2>
+            
+            <div class="mockup">
+                <div class="topbar">
+                    <div class="topbar-left">Dashboard</div>
+                    <div class="topbar-right">
+                        <div class="icon-button">🔔</div>
+                        <div class="icon-button">👤</div>
+                        <div class="button logout-button">
+                            🚪 Logout
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow" style="right: 80px; top: 30px;">👆</div>
+                <p style="text-align: center; font-size: 1.2em; color: #dc2626; font-weight: bold;">
+                    ← Click here to logout!
+                </p>
+            </div>
+
+            <div class="features">
+                <div class="feature">
+                    <h4>✅ Visible</h4>
+                    <p>Always visible in top-right corner</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Loading State</h4>
+                    <p>Shows "Logging out..." while processing</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Red Hover</h4>
+                    <p>Red color on hover for clarity</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Animation</h4>
+                    <p>Smooth scale animation on click</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Location 2: Sidebar -->
+        <div class="section">
+            <h2>
+                <span class="location-number">2</span>
+                Location 2: Sidebar (Bottom of Navigation)
+            </h2>
+            
+            <div class="mockup">
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                    <div class="sidebar">
+                        <h3 style="margin: 0 0 20px 0;">Banquet</h3>
+                        <div class="sidebar-item">📊 Dashboard</div>
+                        <div class="sidebar-item">👥 Leads</div>
+                        <div class="sidebar-item">📅 Bookings</div>
+                        <div class="sidebar-item">🏢 Branches</div>
+                        <div class="sidebar-item">📦 Supplies</div>
+                        <div class="sidebar-item">⚙️ Settings</div>
+                        <div class="sidebar-footer">
+                            <div class="button logout-button" style="width: 100%; justify-content: center;">
+                                🚪 Logout
+                            </div>
+                        </div>
+                    </div>
+                    <div style="flex: 1; padding: 20px;">
+                        <div class="arrow" style="position: relative; left: -50px; top: 0;">👈</div>
+                        <p style="font-size: 1.2em; color: #dc2626; font-weight: bold;">
+                            Click logout at the bottom of the sidebar!
+                        </p>
+                        <p>Works on both desktop and mobile views</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature">
+                    <h4>✅ Accessible</h4>
+                    <p>Easy to find at bottom of sidebar</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Red Text</h4>
+                    <p>Red color for clear identification</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Mobile Ready</h4>
+                    <p>Works in mobile sidebar too</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Same Function</h4>
+                    <p>Identical functionality to top bar</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="section">
+            <h2>🔧 How It Works</h2>
+            
+            <div class="code">
+User clicks "Logout" button
+    ↓
+Button shows <span class="highlight">"Logging out..."</span>
+    ↓
+Calls <span class="highlight">signOut()</span> server action
+    ↓
+Supabase clears authentication session
+    ↓
+JWT token invalidated
+    ↓
+User redirected to <span class="highlight">/auth/login</span>
+    ↓
+Router refreshed to clear state
+    ↓
+User must login again to access dashboard
+            </div>
+        </div>
+
+        <!-- Files Modified -->
+        <div class="section">
+            <h2>📁 Files Modified</h2>
+            
+            <div class="features">
+                <div class="feature">
+                    <h4>components/dashboard/top-bar.tsx</h4>
+                    <p>Added logout button with loading state, animations, and redirect logic</p>
+                </div>
+                <div class="feature">
+                    <h4>components/dashboard/sidebar-nav.tsx</h4>
+                    <p>Added LogoutButton component at sidebar bottom with same functionality</p>
+                </div>
+                <div class="feature">
+                    <h4>lib/server-actions.ts</h4>
+                    <p>Already has signOut() function for secure server-side logout</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testing -->
+        <div class="section">
+            <h2>✅ Test the Logout Button</h2>
+            
+            <ol style="font-size: 1.1em; line-height: 2;">
+                <li>Run <code style="background: #f3f4f6; padding: 5px 10px; border-radius: 5px;">npm run dev</code></li>
+                <li>Open <code style="background: #f3f4f6; padding: 5px 10px; border-radius: 5px;">http://localhost:3000</code></li>
+                <li>Login to dashboard</li>
+                <li>Look for logout button in <strong>top-right corner</strong> OR <strong>sidebar bottom</strong></li>
+                <li>Click "Logout"</li>
+                <li>Should show "Logging out..." then redirect to login page</li>
+                <li>Try to access dashboard - should redirect back to login ✅</li>
+            </ol>
+        </div>
+
+        <!-- Hackathon Ready -->
+        <div class="section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none;">
+            <h2 style="color: white;">🏆 Hackathon Ready!</h2>
+            
+            <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin: 20px 0;">
+                <h3 style="margin-top: 0;">✅ Completed Features:</h3>
+                <ul style="font-size: 1.1em; line-height: 2;">
+                    <li><strong>Logout Button</strong> - Two locations (NEW!)</li>
+                    <li><strong>AI Event Analysis</strong> - Gemini AI powered</li>
+                    <li><strong>Smart Branch Priority</strong> - Intelligent recommendations</li>
+                    <li><strong>Real-time Booking</strong> - Double-booking prevention</li>
+                    <li><strong>Supply Management</strong> - Color-coded alerts</li>
+                    <li><strong>Lead CRM</strong> - Kanban board</li>
+                    <li><strong>15+ Core Features</strong> - Complete system</li>
+                </ul>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
+                <h3 style="margin-top: 0;">📚 Documentation Created:</h3>
+                <ul style="font-size: 1.1em; line-height: 2;">
+                    <li><strong>HACKATHON_DEMO_GUIDE.md</strong> - Complete demo script</li>
+                    <li><strong>DEMO_CHECKLIST.txt</strong> - Visual checklist</li>
+                    <li><strong>PROJECT_FLOW_DIAGRAM.md</strong> - Architecture</li>
+                    <li><strong>HACKATHON_READY_CHECKLIST.md</strong> - Pre-demo verification</li>
+                    <li><strong>HACKATHON_SUMMARY.txt</strong> - Quick reference</li>
+                </ul>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px; font-size: 1.5em;">
+                <strong>🚀 You're ready to win! Good luck! 🏆</strong>
+            </div>
+        </div>
+
+        <!-- Quick Commands -->
+        <div class="section">
+            <h2>📞 Quick Commands</h2>
+            
+            <div class="code">
+# Start development server
+$ npm run dev
+
+# Build for production
+$ npm run build
+
+# Test logout
+1. Login to dashboard
+2. Click logout button (top-right or sidebar)
+3. Verify redirect to /auth/login
+4. Confirm cannot access dashboard without login
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; margin-top: 40px; padding: 30px; background: #f9fafb; border-radius: 10px;">
+            <h2 style="color: #667eea; margin: 0 0 10px 0;">🎉 All Set!</h2>
+            <p style="font-size: 1.2em; margin: 0; color: #666;">
+                Your project has a working logout button and is ready for the hackathon!
+            </p>
+            <p style="margin: 20px 0 0 0; font-size: 1.1em;">
+                <strong>Next:</strong> Read <code>HACKATHON_DEMO_GUIDE.md</code> for demo script
+            </p>
+        </div>
+    </div>
+</body>
+</html>
