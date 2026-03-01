@@ -98,23 +98,7 @@ Run the database schema setup:
 supabase db push
 ```
 
-### 5. (Optional) Inject Demo Data
-
-To populate with sample data for testing:
-
-```bash
-npx tsx scripts/inject-demo-data.ts
-```
-
-This creates:
-- 3 branches (Mumbai, Delhi, Bangalore)
-- 20 leads across different stages
-- 15 bookings with various statuses
-- 10 events with realistic data
-- Sample inventory items
-- Demo users with different roles
-
-### 6. Run Development Server
+### 5. Run Development Server
 
 ```bash
 pnpm dev
@@ -124,11 +108,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### 7. Sign Up and Explore
+### 6. Sign Up and Start Using
 
 1. Go to `/auth/sign-up` to create an account
 2. Sign in at `/auth/login`
-3. Explore the dashboard with demo data
+3. Explore the dashboard and features
 
 ---
 
@@ -277,24 +261,6 @@ All actions include:
 ---
 
 ## 🧪 Testing the Application
-
-### Test Accounts (after running demo data script)
-
-```
-Admin Account:
-Email: admin@eventease.com
-Password: admin123
-
-Branch Manager:
-Email: manager@eventease.com
-Password: manager123
-
-Staff:
-Email: staff@eventease.com
-Password: staff123
-```
-
-### Test Scenarios
 
 1. **Create a Booking**: Dashboard → Bookings → New Booking
 2. **Manage Leads**: Dashboard → Leads Lifecycle → Drag cards
